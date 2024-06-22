@@ -1,20 +1,25 @@
 /**
- * @name New Kemono Friends Theme
- * @author ShadowDevilsAvenged
- * @description Newer Kemono Friends theme for my return
- * @version 5.9
+ * @name Luna Sakura Theme
+ * @author LunaSakura
+ * @description Theme by LunaSakura
+ * @version 0.1
  */
 @keyframes randomBackground {
-    0% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_01.jpg"); }
-    20% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_02.png"); }
-    40% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_03.png"); }
-    60% { background-image: url("https://example.com/path/to/your/fourth_image.jpg"); }
-    80% { background-image: url("https://example.com/path/to/your/fifth_image.jpg"); }
-    100% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_01.jpg"); }
+    0% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_01.jpg"); }
+    19.95% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_01.jpg"); }
+    20% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_02.png"); }
+    39.95% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_02.png"); }
+    40% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_03.png"); }
+    59.95% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_03.png"); }
+    60% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_04.png"); }
+    79.95% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_04.png"); }
+    80% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_05.png"); }
+    99.95% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_05.png"); }
+    100% { background-image: url("https://raw.githubusercontent.com/Luna5akura/discord-css/main/src/bg_06.png"); }
 }
 /* Main Background */
 .app_a01fb1 {
-    background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_01.jpg");
+    animation: randomBackground 3600s infinite;
     background-size: cover;
     background-color: transparent;
 }
