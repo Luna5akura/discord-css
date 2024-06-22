@@ -4,7 +4,14 @@
  * @description Newer Kemono Friends theme for my return
  * @version 5.9
  */
-
+@keyframes randomBackground {
+    0% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_01.jpg"); }
+    20% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_02.png"); }
+    40% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_03.png"); }
+    60% { background-image: url("https://example.com/path/to/your/fourth_image.jpg"); }
+    80% { background-image: url("https://example.com/path/to/your/fifth_image.jpg"); }
+    100% { background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_01.jpg"); }
+}
 /* Main Background */
 .app_a01fb1 {
     background-image: url("https://github.com/Luna5akura/discord-css/blob/main/src/bg_01.jpg");
